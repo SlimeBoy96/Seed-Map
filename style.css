@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#search {
+    margin-bottom: 2rem;
+}
+
+#search input {
+    padding: 0.5rem;
+    width: 300px;
+}
+
+#search button {
+    padding: 0.5rem;
+}
+
+#results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#results li {
+    background: white;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
